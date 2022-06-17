@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ context.title }}
+{% endblock %}
+
+{% block menu %}
+{% for item in context.menu %}
+<li><a href="/{{ item }}">{{ context.menu[item] }}</a></li>
+{% endfor %}
+{% endblock %}
+
+{% block content %}
+<h1>{{ context.content }}</h1>
+{% endblock %}

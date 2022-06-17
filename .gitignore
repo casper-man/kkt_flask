@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# My file
+*.sqlite3
+test*.*
+test/
+.test
